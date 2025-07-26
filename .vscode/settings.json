@@ -1,0 +1,25 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "*.tcc": "cpp",
+    "*.c": "c",
+    "*.h": "c",
+    "*.cpp": "cpp",
+    "*.hpp": "cpp"
+  },
+
+  // Enable format on save
+  "editor.formatOnSave": true,
+
+  // Use clang-format with VS Code's C/C++ extension
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+
+  // Set the formatter (using the Microsoft C++ extension)
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
+}
