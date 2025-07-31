@@ -24,7 +24,9 @@ public:
     age = a;
   }
 
-  void display() { cout << "Name: " << name << ", Age: " << age << endl; }
+  void display() {
+    cout << "Name: " << name << ", Age: " << age << endl;
+  }
 };
 
 int main() {

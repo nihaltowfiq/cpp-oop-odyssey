@@ -24,7 +24,9 @@ public:
     cout << "Copy Constructor Called" << endl;
   }
 
-  void show() { cout << "Name: " << name << ", Age: " << age << endl; }
+  void show() {
+    cout << "Name: " << name << ", Age: " << age << endl;
+  }
 };
 
 int main() {

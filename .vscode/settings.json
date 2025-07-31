@@ -18,7 +18,8 @@
 
   // Set the formatter (using the Microsoft C++ extension)
   "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "prettier.printWidth": 80
   },
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"

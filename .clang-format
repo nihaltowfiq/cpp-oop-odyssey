@@ -1,9 +1,15 @@
-# Example .clang-format
 BasedOnStyle: LLVM
 IndentWidth: 2
 TabWidth: 2
 UseTab: Never
-# BreakBeforeBraces: Allman
 BreakBeforeBraces: Attach
-AllowShortIfStatementsOnASingleLine: false
-ColumnLimit: 120
+
+# Force multiline for function definitions
+AllowShortFunctionsOnASingleLine: None
+
+# Allow short if/loops/switch on single line
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+
+ColumnLimit: 80

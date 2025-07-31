@@ -4,7 +4,9 @@ using namespace std;
 class Book {
 public:
   string title;
-  void show() { cout << "Book: " << title << endl; }
+  void show() {
+    cout << "Book: " << title << endl;
+  }
 };
 
 int main() {

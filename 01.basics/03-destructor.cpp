@@ -10,9 +10,13 @@ using namespace std;
 
 class Student {
 public:
-  Student() { cout << "Constructor Called" << endl; }
+  Student() {
+    cout << "Constructor Called" << endl;
+  }
 
-  ~Student() { cout << "Destructor Called" << endl; }
+  ~Student() {
+    cout << "Destructor Called" << endl;
+  }
 };
 
 int main() {

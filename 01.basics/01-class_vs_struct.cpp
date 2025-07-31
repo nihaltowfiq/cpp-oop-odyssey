@@ -17,14 +17,18 @@ public:
   string brand;
   int year;
 
-  void display() { cout << "Brand: " << brand << ", Year: " << year << endl; }
+  void display() {
+    cout << "Brand: " << brand << ", Year: " << year << endl;
+  }
 };
 
 struct Bike {
   string brand;
   int year;
 
-  void display() { cout << "Brand: " << brand << ", Year: " << year << endl; }
+  void display() {
+    cout << "Brand: " << brand << ", Year: " << year << endl;
+  }
 };
 
 int main() {
