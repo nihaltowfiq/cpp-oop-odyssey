@@ -12,4 +12,4 @@ AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
 AllowShortCaseLabelsOnASingleLine: true
 
-ColumnLimit: 80
+ColumnLimit: 120
