@@ -5,7 +5,8 @@
     "*.c": "c",
     "*.h": "c",
     "*.cpp": "cpp",
-    "*.hpp": "cpp"
+    "*.hpp": "cpp",
+    "iostream": "cpp"
   },
 
   // Enable format on save
